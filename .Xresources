@@ -3,7 +3,7 @@
 ! special
 *foreground: #ffffff
 *background: #1b1b1b
-*cursorColor: #aee5d7
+*cursorColor: #98c8bb
 
 ! Define colors
 
@@ -16,8 +16,8 @@
 *color9:	#899aff
 
 ! Green dark/light
-*color2:	#3ea290
-*color10:	#52ad91
+*color2:	#1e453e
+*color10:	#306844
 
 ! Yellow dark/light
 *color3:	#b0ead9
