@@ -6,6 +6,7 @@
 *background: #282828
 ! soft contrast: *background: #32302f
 *foreground: #ebdbb2
+*cursorColor: #8ec07c
 
 ! Define colors
 !
@@ -43,8 +44,22 @@
 
 ! Urxvt settings
 
+! Perl-extension
+URxvt.perl-ext-common: default,matcher,resize-font,
+
+! NB: For resize-font extension, download the script from github and paste it in the .urxvt/ext/ folder
+
 ! Set font
 URxvt.font: xft:Noto Sans Mono:size=13
 
+! Space between letters
+URxvt.letterSpace: -1
+
 ! Remove scrollbar
-URxvt*scrollbar: false
+URxvt*scrollBar: false
+URxvt*scrollBar_right: false
+
+! Clickable URLs
+URxvt.url-launcher: /usr/bin/firefox
+URxvt.matcher.button: 1
+URxvt.matcher.rend.0: Uline Bold fg5
