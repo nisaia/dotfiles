@@ -1,0 +1,30 @@
+! URxvt settings
+
+! General
+URxvt.saveLines: 1000
+
+! Set title
+URxvt.title: Terminal
+
+! Perl-extension
+URxvt.perl-ext-common: default,matcher,resize-font,
+
+! NB: For resize-font extension, download the script from github and paste it in the .urxvt/ext/ folder
+
+! Set font
+URxvt.font: xft:Noto Sans Mono:size=13
+
+! Space between letters
+URxvt.letterSpace: -1
+
+! Remove scrollBar
+URxvt*scrollBar: false
+
+! Clickable URLs
+URxvt.url-launcher: /usr/bin/firefox
+URxvt.matcher.button: 1
+URxvt.colorUL: c11
+
+! Cursor blink
+URxvt.cursorBlink: true
+
