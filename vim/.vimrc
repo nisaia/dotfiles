@@ -69,22 +69,19 @@ set wildmode=list:longest
 "Wildmenu will ignore files with these extensions.
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
-"-------------------- PLUGINS -------------------- {{{
+" Set Vim colors
+set t_Co=16
+
+  "-------------------- PLUGINS -------------------- {{{
 
 call plug#begin('~/.vim/plugged')
 
 Plug 'preservim/nerdtree'
-Plug 'morhetz/gruvbox'
-Plug 'tomasr/molokai'
 Plug 'davidhalter/jedi-vim'
 Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/syntastic'
 
 call plug#end()
-
-"Settings for colorscheme
-colorscheme gruvbox
-set background=dark
 
 "NERDTree settings
 "Start NERDTree when Vim is opened and leave the cursor in it
@@ -99,7 +96,7 @@ autocmd BufWinEnter * silent NERDTreeMirror
 "Exit Vim if NERDTree is the only window left
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() |
     \ quit | endif
-"}}}
+  "}}}
 
 "-------------------- MAPPINGS -------------------- {{{
 
