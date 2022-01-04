@@ -72,7 +72,7 @@ font-2 = siji:pixelsize=10;1
 font-3 = FontAwesome:pixelsize=11;2
 
 modules-left = i3 xwindow
-modules-center = 
+modules-center = moc 
 modules-right = updates powermenu
 
 separator = |
@@ -125,7 +125,11 @@ module-margin-right = 2
 font-0 = Noto Sans Mono:size=11:antialias=true;0
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
-font-3 = FontAwesome:pixelsize=11;2
+
+; Install Font Awesome font from internet
+font-3 = Font Awesome 5 Free:pixelsize=11;2
+font-4 = Font Awesome 5 Free Solid:pixelsize=11;2
+font-5 = Font Awesome 5 Brands:pixelsize=11;2
 
 modules-left = 
 modules-center = date
@@ -152,7 +156,7 @@ cursor-scroll = ns-resize
 
 [module/xwindow]
 type = internal/xwindow
-label = %title:0:30:...%
+label = %title:0:100:...%
 
 [module/xkeyboard]
 type = internal/xkeyboard
@@ -265,6 +269,15 @@ icon-next = 
 label-song-maxlen = 25
 label-song-ellipsis = true
 
+[module/moc]
+type = custom/script
+exec = ~/.moc/player-moc.sh
+interval = 0 
+format-prefix = "♬ " 
+click-left = mocp -f &
+click-right = mocp -r &
+click-middle = mocp -G &
+
 [module/xbacklight]
 type = internal/xbacklight
 
@@ -310,12 +323,13 @@ interval = 3.0
 format-connected = <ramp-signal> <label-connected>
 format-connected-prefix = ""
 label-connected = %local_ip%
+label-connected-foreground = ${colors.color6}
 
 ;format-disconnected =
 format-disconnected = <label-disconnected>
 ;format-disconnected-underline = ${self.format-connected-underline}
 label-disconnected = %ifname% disconnected
-label-disconnected-foreground = ${colors.foreground}
+label-disconnected-foreground = ${colors.alert}
 
 ramp-signal-0 = 
 ramp-signal-1 = 
@@ -361,7 +375,7 @@ format-volume = <label-volume>
 label-volume =  %percentage%%
 label-volume-foreground = ${root.foreground}
 
-label-muted = " muted"
+label-muted = ""
 label-muted-foreground = ${colors.foreground}
 
 bar-volume-width = 15
@@ -451,8 +465,8 @@ format = <ramp> <label>
 format-warn = <ramp> <label-warn>
 format-warn-underline = ${self.format-underline} 
 
-label =  %temperature-c%
-label-warn =  %temperature-c%
+label =  %temperature-c%
+label-warn =  %temperature-c%
 label-warn-foreground = ${colors.alert}
 
 ramp-0 = 
