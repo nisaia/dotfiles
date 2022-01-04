@@ -1,0 +1,5 @@
+! SOURCE TERMINAL COLORS
+#include "/home/nico/.xres/themes/gruvbox_theme"
+
+! SOURCE PROGRAM SPECIFIC FILES
+#include "/home/nico/.xres/urxvt"
