@@ -70,7 +70,7 @@ set wildmode=list:longest
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
 " Set Vim colors
-set t_Co=16
+set t_Co=256
 
   "-------------------- PLUGINS -------------------- {{{
 
@@ -80,6 +80,7 @@ Plug 'preservim/nerdtree'
 Plug 'davidhalter/jedi-vim'
 Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/syntastic'
+Plug 'lilydjwg/colorizer'
 
 call plug#end()
 
