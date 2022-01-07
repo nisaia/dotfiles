@@ -137,7 +137,7 @@ font-5 = Font Awesome 5 Brands:pixelsize=11;2
 
 modules-left = filesystem memory cpu temperature
 modules-center = date
-modules-right =  wlan xkeyboard pulseaudio
+modules-right =  wlan xkeyboard pulseaudio-control
 
 separator = |
 
@@ -277,7 +277,7 @@ label-song-ellipsis = true
 
 [module/moc]
 type = custom/script
-exec = ~/.moc/player-moc.sh
+exec = ~/.config/polybar/scripts/player-moc.sh
 interval = 2 
 format-prefix = "♬ " 
 click-left = mocp -f &
@@ -400,6 +400,19 @@ bar-volume-fill-font = 2
 bar-volume-empty = ─
 bar-volume-empty-font = 2
 bar-volume-empty-foreground = ${colors.foreground-alt}
+
+[module/pulseaudio-control]
+type = custom/script
+tail = true
+label=%output%
+
+exec = ~/.config/polybar/scripts/pulseaudio-control.bash listen
+click-right = exec pavucontrol &
+click-left = ~/.config/polybar/scripts/pulseaudio-control.bash togmute
+click-middle = ~/.config/polybar/scripts/pulseaudio-control.bash next-sink
+scroll-up = ~/.config/polybar/scripts/pulseaudio-control.bash up
+scroll-down = ~/.config/polybar/scripts/pulseaudio-control.bash down
+label-foreground = ${colors.foreground}
 
 [module/alsa]
 type = internal/alsa
