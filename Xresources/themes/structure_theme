@@ -1,8 +1,8 @@
 Structure theme
 
 color0 - color8 (Background color dark/light)
-color1 - color9 ()
-color2 - color10
+color1 - color9 (zip file color)
+color2 - color10 (executable file color)
 color3 - color11
 color4 - color12 (directory color dark/light)
 color5 - color13 (JPG/PNG color dark/light)

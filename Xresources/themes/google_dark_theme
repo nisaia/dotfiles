@@ -1,36 +1,58 @@
+! Google dark theme
+
+! Define colors
+
+#define c00 #1d1f21
+#define c01 #cc342b
+#define c02 #198844
+#define c03 #fba922
+#define c04 #3971ed
+#define c05 #a36ac7
+#define c06 #3971ed
+#define c07 #c5c8c6
+#define c08 #969896
+#define c09 #cc342b
+#define c10 #198884
+#define c11 #fba922
+#define c12 #3971ed
+#define c13 #a36ac7
+#define c14 #3971ed
+#define c15 #ffffff
+
+
 ! special
-*.foreground:   #c5c8c6
-*.background:   #1d1f21
-*.cursorColor:  #c5c8c6
+*.foreground:   c15
+*.background:   c00
+*.cursorColor:  c07
 
-! black
-*.color0:       #1d1f21
-*.color8:       #969896
+! Black dark/light
+*.color0:       c00
+*.color8:       c08
 
-! red
-*.color1:       #cc342b
-*.color9:       #cc342b
+! Red dark/light
+*.color1:       c01
+*.color9:       c09
 
-! green
-*.color2:       #198844
-*.color10:      #198844
+! Green dark/light
+*.color2:       c02
+*.color10:      c03
 
-! yellow
-*.color3:       #fba922
-*.color11:      #fba922
+! Yellow dark/light
+*.color3:       c03
+*.color11:      c11
 
-! blue
-*.color4:       #3971ed
-*.color12:      #3971ed
+! Blue dark/light
+*.color4:       c04
+*.color12:      c12
 
-! magenta
-*.color5:       #a36ac7
-*.color13:      #a36ac7
+! Magenta dark/light
+*.color5:       c05
+*.color13:      c13
 
-! cyan
-*.color6:       #3971ed
-*.color14:      #3971ed
+! Cyan dark/light
+*.color6:       c06
+*.color14:      c14
 
-! white
-*.color7:       #c5c8c6
-*.color15:      #ffffff
+! White dark/light
+*.color7:       c07
+*.color15:      c15
