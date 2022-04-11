@@ -1,0 +1,10 @@
+Structure theme
+
+color0 - color8 (Background color dark/light)
+color1 - color9 ()
+color2 - color10
+color3 - color11
+color4 - color12 (directory color dark/light)
+color5 - color13 (JPG/PNG color dark/light)
+color6 - color14
+color7 - color15 (Foreground color dark/light)
