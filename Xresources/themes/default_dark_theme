@@ -1,0 +1,56 @@
+! Default dark theme
+
+! Define colors
+
+#define c00 #151515
+#define c01 #ac4142
+#define c02 #90a959
+#define c03 #f4bf75
+#define c04 #6a9fb5
+#define c05 #aa759f
+#define c06 #75b5aa
+#define c07 #d0d0d0
+#define c08 #505050
+#define c09 #ac4142
+#define c10 #90a959
+#define c11 #f4bf75
+#define c12 #6a9fb5
+#define c13 #aa759f
+#define c14 #75b5aa
+#define c15 #f5f5f5
+
+*.foreground: c15
+*.background: c00
+*.cursorColor: c14
+
+! Black dark/light
+*.color0: c00
+*.color8: c08
+
+! Red dark/light
+*.color1: c01
+*.color9: c09
+
+! Green dark/light
+*.color2: c02
+*.color10: c10
+
+! Yellow dark/light
+*.color3: c03
+*.color11: c11
+
+! Blue dark/light
+*.color4: c04
+*.color12: c12
+
+! Magenta dark/light
+*.color5: c05
+*.color13: c13
+
+! Cyan dark/light
+*.color6: c06
+*.color14: c14
+
+! White dark/light
+*.color7: c07
+*.color15: c15
