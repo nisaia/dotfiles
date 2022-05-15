@@ -1,0 +1,57 @@
+! Sunshine theme
+
+! Define colors
+
+#define c00 #150a19
+#define c01 #e16f33
+#define c02 #a7554c
+#define c03 #f58b33
+#define c04 #fea533
+#define c05 #f0a362
+#define c06 #ffd7a5
+#define c07 #f5e5cc
+#define c08 #150a19
+#define c09 #e16f33
+#define c10 #a7554c
+#define c11 #f58b33
+#define c12 #fea533
+#define c13 #f0a362
+#define c14 #ffd7a5
+#define c15 #f5e5cc
+
+! special
+*.foreground: c15
+*.background: c00
+*.cursorColor: c07
+
+! Black dark/light
+*.color0: c00
+*.color8: c08
+
+! Red dark/light
+*.color1: c01
+*.color9: c09
+
+! Green dark/light
+*.color2: c02
+*.color10: c10
+
+! Yellow dark/light
+*.color3: c03
+*.color11: c11
+
+! Blue dark/light
+*.color4: c04
+*.color12: c12
+
+! Magenta dark/light
+*.color5: c05
+*.color13: c13
+
+! Cyan dark/light
+*.color6: c06
+*.color14: c14
+
+! White dark/light
+*.color7: c07
+*.color15: c15
