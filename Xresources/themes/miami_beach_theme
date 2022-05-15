@@ -1,0 +1,57 @@
+! Miami beach theme
+
+! Define colors
+
+#define c00 #1c1e26
+#define c01 #e95678
+#define c02 #29d398
+#define c03 #fac29a
+#define c04 #26bbd9
+#define c05 #ee64ac
+#define c06 #59e1e3
+#define c07 #cbced0
+#define c08 #1c1e26
+#define c09 #e95678
+#define c10 #29d398
+#define c11 #fac29a
+#define c12 #26bbd9
+#define c13 #ee64ac
+#define c14 #59e1e3
+#define c15 #cbced0
+
+! special
+*.foreground: c15
+*.background: c00
+*.cursorColor: c07
+
+! Black dark/light
+*.color0: c00
+*.color8: c08
+
+! Red dark/light
+*.color1: c01
+*.color9: c09
+
+! Green dark/light
+*.color2: c02
+*.color10: c10
+
+! Yellow dark/light
+*.color3: c03
+*.color11: c11
+
+! BLue dark/light
+*.color4: c04
+*.color12: c12
+
+! Magenta dark/light
+*.color5: c05
+*.color13: c13
+
+! Cyan dark/light
+*.color6: c06
+*.color14: c14
+
+! White dark/light
+*.color7: c07
+*.color15: c15
