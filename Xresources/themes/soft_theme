@@ -1,0 +1,57 @@
+! Soft theme
+
+! Define colors
+
+#define c00 #27262d
+#define c01 #cb6077
+#define c02 #beb55b
+#define c03 #c79750
+#define c04 #8ab3b5
+#define c05 #a89bb9
+#define c06 #7bbda4
+#define c07 #d0c8c6
+#define c08 #27262d
+#define c09 #cb6077
+#define c10 #beb55b
+#define c11 #c79750
+#define c12 #8ab3b5
+#define c13 #a89bb9
+#define c14 #7bbda4
+#define c15 #d0c8c6
+
+! special
+*.foreground: c15
+*.background: c00
+*.cursorColor: c07
+
+! Black dark/light
+*.color0: c00
+*.color8: c08
+
+! Red dark/light
+*.color1: c01
+*.color9: c09
+
+! Green dark/light
+*.color2: c02
+*.color10: c10
+
+! Yellow dark/light
+*.color3: c03
+*.color11: c11
+
+! Blue dark/light
+*.color4: c04
+*.color12: c12
+
+! Magenta dark/light
+*.color5: c05
+*.color13: c13
+
+! Cyan dark/light
+*.color6: c06
+*.color14: c14
+
+! White dark/light
+*.color7: c07
+*.color15: c15

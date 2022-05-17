@@ -1,0 +1,57 @@
+! Youngness theme
+
+! Define colors
+
+#define c00 #251621
+#define c01 #ce9178
+#define c02 #697885
+#define c03 #688894
+#define c04 #d09d88
+#define c05 #d9af94
+#define c06 #d6b9a8
+#define c07 #dad0ce
+#define c08 #251621
+#define c09 #ce9178
+#define c10 #697885
+#define c11 #688894
+#define c12 #d09d88
+#define c13 #d9af94
+#define c14 #d6b9a8
+#define c15 #dad0ce
+
+! special
+*.foreground: c15
+*.background: c00
+*.cursorColor: c07
+
+! Black dark/light
+*.color0: c00
+*.color8: c08
+
+! Red dark/light
+*.color1: c01
+*.color9: c09
+
+! Green dark/light
+*.color2: c02
+*.color10: c03
+
+! Yellow dark/light
+*.color3: c03
+*.color11: c11
+
+! Blue dark/light
+*.color4: c04
+*.color12: c12
+
+! Magenta dark/light
+*.color5: c05
+*.color13: c13
+
+! Cyan dark/light
+*.color6: c06
+*.color14: c14
+
+! White dark/light
+*.color7: c07
+*.color15: c15
