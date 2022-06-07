@@ -1,0 +1,56 @@
+! Daftpunk theme
+
+! Define colors
+
+#define c00 #1c1121
+#define c01 #96255b
+#define c02 #af2a68
+#define c03 #c5235d
+#define c04 #c12865
+#define c05 #9b3f79
+#define c06 #0a679d
+#define c07 #88aac7
+#define c08 #1c1121
+#define c09 #96255b
+#define c10 #af2a68
+#define c11 #c5235d
+#define c12 #c12865
+#define c13 #9b3f79
+#define c14 #0a679d
+#define c15 #88aac7
+
+*.foreground: c15
+*.background: c00
+*.cursorColor: c07
+
+! Black dark/light
+*.color0: c00
+*.color8: c08
+
+! Red dark/light
+*.color1: c01
+*.color9: c09
+
+! Green dark/light
+*.color2: c02
+*.color10: c10
+
+! Yellow dark/light
+*.color3: c03
+*.color11: c11
+
+! Blue dark/light
+*.color4: c04
+*.color12: c12 
+
+! Magenta dark/light
+*.color5: c05
+*.color13: c13
+
+! Cyan dark/light
+*.color6: c06
+*.color14: c14
+
+! White dark/light
+*.color7: c07
+*.color15: c15
