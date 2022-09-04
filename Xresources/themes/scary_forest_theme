@@ -4,16 +4,16 @@
 
 #define c00 #161e1c
 #define c01 #628D7C
-#define c02 #94987c
-#define c03 #4c6174
+#define c02 #59807c
+#define c03 #a3b08b
 #define c04 #196f84
 #define c05 #0c684b
 #define c06 #17a490
 #define c07 #ffffff
 #define c08 #161e1c
 #define c09 #628D7C
-#define c10 #94987c
-#define c11 #4c6174
+#define c10 #59807c
+#define c11 #a3b08b
 #define c12 #196f84
 #define c13 #0c684b
 #define c14 #17a490
