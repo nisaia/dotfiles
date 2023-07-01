@@ -15,8 +15,8 @@ SAVEHIST=1000
 HISTFILE=~/.zsh_history
 
 # Use modern completion system
-# autoload -Uz compinit
-# compinit
+autoload -Uz compinit
+compinit
 
 # zstyle ':completion:*' auto-description 'specify: %d'
 # zstyle ':completion:*' completer _expand _complete _correct _approximate
@@ -37,10 +37,12 @@ HISTFILE=~/.zsh_history
 # zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
 #Prompt
-PROMPT="[%B%F{28}%n%f%b] > "
-RPROMPT="[%B%F{47}%d%f%b]"
+# to see icons you need to install a Nerd Font
+PROMPT="[%F{green}%n%F{white}  %F{red}%~%F{white}]$ "
+RPROMPT="[%F{blue}inserire branch%F{white}]"
 
 #Plugins
+# you need download plugins from github and move them in home directory
 source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ./zsh-autosuggestions/zsh-autosuggestions.zsh
 source ./zsh-history-substring-search/zsh-history-substring-search.zsh
