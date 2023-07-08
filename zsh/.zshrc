@@ -18,6 +18,12 @@ HISTFILE=~/.zsh_history
 autoload -Uz compinit
 compinit
 
+autoload -Uz vcs_info
+zstyle ':vcs_info:*' enable git
+zstyle ':vcs_info:*' formats '(%b)'
+precmd() { vcs_info }
+setopt prompt_subst
+
 # zstyle ':completion:*' auto-description 'specify: %d'
 # zstyle ':completion:*' completer _expand _complete _correct _approximate
 # zstyle ':completion:*' format 'Completing %d'
@@ -38,8 +44,8 @@ compinit
 
 #Prompt
 # to see icons you need to install a Nerd Font
-PROMPT="[%F{green}%n%F{white}  %F{red}%~%F{white}]$ "
-RPROMPT="[%F{blue}inserire branch%F{white}]"
+PROMPT="[%F{green}%n@%m%f%F{white}  %f%F{red}%~%f%F{white}]$%f "
+RPROMPT='${vcs_info_msg_0_}'
 
 #Plugins
 # you need download plugins from github and move them in home directory
