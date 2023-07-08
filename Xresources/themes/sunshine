@@ -1,23 +1,23 @@
-! Soft theme
+! Sunshine theme
 
 ! Define colors
 
-#define c00 #3b3228
-#define c01 #cb6077
-#define c02 #beb55b
-#define c03 #c79750
-#define c04 #8ab3b5
-#define c05 #a89bb9
-#define c06 #7bbda4
-#define c07 #d0c8c6
-#define c08 #3b3228
-#define c09 #cb6077
-#define c10 #beb55b
-#define c11 #c79750
-#define c12 #8ab3b5
-#define c13 #a89bb9
-#define c14 #7bbda4
-#define c15 #d0c8c6
+#define c00 #150a19
+#define c01 #e16f33
+#define c02 #a7554c
+#define c03 #f58b33
+#define c04 #fea533
+#define c05 #f0a362
+#define c06 #ffd7a5
+#define c07 #f5e5cc
+#define c08 #977ba2
+#define c09 #e16f33
+#define c10 #a7554c
+#define c11 #f58b33
+#define c12 #fea533
+#define c13 #f0a362
+#define c14 #ffd7a5
+#define c15 #f5e5cc
 
 ! special
 *.foreground: c15

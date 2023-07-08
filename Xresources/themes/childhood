@@ -1,23 +1,23 @@
-! Soft theme
+! Youngness theme
 
 ! Define colors
 
-#define c00 #27262d
-#define c01 #cb6077
-#define c02 #beb55b
-#define c03 #c79750
-#define c04 #8ab3b5
-#define c05 #a89bb9
-#define c06 #7bbda4
-#define c07 #d0c8c6
-#define c08 #27262d
-#define c09 #cb6077
-#define c10 #beb55b
-#define c11 #c79750
-#define c12 #8ab3b5
-#define c13 #a89bb9
-#define c14 #7bbda4
-#define c15 #d0c8c6
+#define c00 #251621
+#define c01 #ce9178
+#define c02 #697885
+#define c03 #688894
+#define c04 #d09d88
+#define c05 #d9af94
+#define c06 #d6b9a8
+#define c07 #dad0ce
+#define c08 #865e7c
+#define c09 #ce9178
+#define c10 #697885
+#define c11 #688894
+#define c12 #d09d88
+#define c13 #d9af94
+#define c14 #d6b9a8
+#define c15 #dad0ce
 
 ! special
 *.foreground: c15
