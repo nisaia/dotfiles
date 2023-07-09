@@ -45,7 +45,7 @@ setopt prompt_subst
 #Prompt
 # to see icons you need to install a Nerd Font
 PROMPT="[%F{green}%n@%m%f%F{white}  %f%F{red}%~%f%F{white}]$%f "
-RPROMPT='${vcs_info_msg_0_}'
+RPROMPT='%F{blue}${vcs_info_msg_0_}%f'
 
 #Plugins
 # you need download plugins from github and move them in home directory
@@ -53,5 +53,8 @@ source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ./zsh-autosuggestions/zsh-autosuggestions.zsh
 source ./zsh-history-substring-search/zsh-history-substring-search.zsh
 
-bindkey "$terminfo[kcuu1]" history-substring-search-up
-bindkey "$terminfo[kcud1]" history-substring-search-down
+bindkey "^[[A" history-substring-search-up
+bindkey "^[[B" history-substring-search-down
+# or
+# bindkey "$terminfo[kcuu1]" history-substring-search-up
+# bindkey "$terminfo[kcud1]" history-substring-search-down
