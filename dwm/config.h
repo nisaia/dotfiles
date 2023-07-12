@@ -6,8 +6,8 @@ static const unsigned int gappx     = 6;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static char font[]            = "monospace:size=10";
-static char dmenufont[]       = "monospace:size=10";
+static char font[]            = "JetBrainsMono Nerd Font:style=Regular:pixelsize=14:antialias=true:autohint=true";
+static char dmenufont[]       = "JetBrainsMono Nerd Font:style=Regular:pixelsize=14:antialias=true:autohint=true";
 static const char *fonts[]          = { font };
 static char normbgcolor[]           = "#222222";
 static char normbordercolor[]       = "#444444";
@@ -22,7 +22,7 @@ static char *colors[][3] = {
 };
 
 /* tagging */
-static const char *tags[] = { "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX" };
+static const char *tags[] = { "", "", "", "IV", "V", "VI", "VII", "VIII", "IX"};
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -69,12 +69,12 @@ static const char *termcmd[]  = { "st", NULL };
 ResourcePref resources[] = {
 		{ "font",               STRING,  &font },
 		{ "dmenufont",          STRING,  &dmenufont },
-		{ "normbgcolor",        STRING,  &normbgcolor },
-		{ "normbordercolor",    STRING,  &normbordercolor },
-		{ "normfgcolor",        STRING,  &normfgcolor },
-		{ "selbgcolor",         STRING,  &selbgcolor },
-		{ "selbordercolor",     STRING,  &selbordercolor },
-		{ "selfgcolor",         STRING,  &selfgcolor },
+		{ "color0",             STRING,  &normbgcolor },
+		{ "color4",             STRING,  &normbordercolor },
+		{ "color2",             STRING,  &normfgcolor },
+		{ "color2",             STRING,  &selbgcolor },
+		{ "color5",             STRING,  &selbordercolor },
+		{ "color0",             STRING,  &selfgcolor },
 		{ "borderpx",          	INTEGER, &borderpx },
 		{ "snap",          		INTEGER, &snap },
 		{ "showbar",          	INTEGER, &showbar },
