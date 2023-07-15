@@ -1,0 +1,63 @@
+# Properties
+
+set adjust-open "width"
+
+set font "JetBrainsMono Nerd Font Regular 13"
+
+set completion-bg "#000000"
+set completion-fg "#ffffff"
+
+set completion-highlight-bg "#56d676"
+set completion-highlight-fg "#000000"
+
+set inputbar-bg "#000000"
+set inputbar-fg "#56d676"
+
+set notification-bg "#56d676"
+set nofitification-fg "#000000"
+
+set notification-warning-bg "#ffae0d"
+set notification-warning-fg "#000000"
+
+set notification-error-bg "#ff3319"
+set notification-error-fg "#000000"
+
+set statusbar-bg "#000000"
+set statusbar-fg "#ff66ff"
+
+set highlight-color "#ff66ff"
+set highlight-fg "#ffffff"
+set highlight-active-color "#ffffff"
+
+set index-fg "#ffffff"
+set index-bg "#000000"
+set index-active-fg "#000000"
+set index-active-bg "#52bebf"
+
+set recolor "true"
+set recolor-keephue "true"
+set recolor-darkcolor "#ffffff"
+set recolor-lightcolor "#000000"
+set recolor-reverse-video "true"
+
+set window-title-basename "true"
+set window-title-home-tilde "true"
+set window-title-page "true"
+
+set statusbar-basename "true"
+set statusbar-page-percent "true"
+set statusbar-home-tilde "true"
+
+# Mapping
+
+map [normal] <Left> navigate previous
+map [normal] <Right> navigate next
+map [normal] f toggle_fullscreen
+map [normal] p toggle_presentation
+map [normal] <Print> print
+
+map [fullscreen] <Left> navigate previous
+map [fullscreen] <Right> navigate next
+map [fullscreen] f toggle_fullscreen
+
+map [presentation] p toggle_presentation
