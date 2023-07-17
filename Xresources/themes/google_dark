@@ -12,7 +12,7 @@
 #define c07 #c5c8c6
 #define c08 #969896
 #define c09 #cc342b
-#define c10 #198884
+#define c10 #198844
 #define c11 #fba922
 #define c12 #3971ed
 #define c13 #a36ac7
@@ -35,7 +35,7 @@
 
 ! Green dark/light
 *.color2:       c02
-*.color10:      c03
+*.color10:      c10
 
 ! Yellow dark/light
 *.color3:       c03
