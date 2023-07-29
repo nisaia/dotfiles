@@ -1,0 +1,57 @@
+! MS-DOS theme
+
+! Define colors
+
+#define c00 #000000
+#define c01 #FF0000
+#define c02 #00FF00
+#define c03 #FFFF00
+#define c04 #0000FF
+#define c05 #FF00FF
+#define c06 #00FFFF
+#define c07 #FFFFFF
+#define c08 #808080
+#define c09 #FF0000
+#define c10 #00FF00
+#define c11 #FFFF00
+#define c12 #0000FF
+#define c13 #FF00FF
+#define c14 #00FFFF
+#define c15 #FFFFFF
+
+! special
+*.foreground: c15
+*.background: c00
+*.cursorColor: c07
+
+! Black dark/light
+*.color0: c00
+*.color8: c08
+
+! Red dark/light
+*.color1: c01
+*.color9: c09
+
+! Green dark/light
+*.color2: c02
+*.color10: c10
+
+! Yellow dark/light
+*.color3: c03
+*.color11: c11
+
+! Blue dark/light
+*.color4: c04
+*.color12: c12
+
+! Magenta dark/light
+*.color5: c05
+*.color13: c13
+
+! Cyan dark/light
+*.color6: c06
+*.color14: c14
+
+! White dark/light
+*.color7: c07
+*.color15: c15
