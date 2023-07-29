@@ -58,3 +58,6 @@ bindkey "^[[B" history-substring-search-down
 # or
 # bindkey "$terminfo[kcuu1]" history-substring-search-up
 # bindkey "$terminfo[kcud1]" history-substring-search-down
+
+# alias
+alias history='history 1'
