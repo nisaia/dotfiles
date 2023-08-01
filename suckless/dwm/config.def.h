@@ -62,6 +62,7 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbordercolor, "-sf", selfgcolor, NULL };
 static const char *termcmd[]  = { "st", NULL };
+static const char *lockcmd[] = { "slock", NULL };
 
 /*
  * Xresources preferences to load at startup
@@ -111,6 +112,7 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
 	{ NULL,                         XK_Print,  spawn,          SHCMD("$HOME/.config/scrot/screenshot.sh") },
 	{ MODKEY,                       XK_Print,  spawn,          SHCMD("$HOME/.config/scrot/screenshot.sh select") },
+	{ MODKEY,                       XK_l,      spawn,          {.v = lockcmd } },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)

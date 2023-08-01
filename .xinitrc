@@ -48,6 +48,9 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
+# load Xresources
+xrdb $HOME/.xres/.Xresources
+
 # set it layout
 localectl set-x11-keymap it
 
@@ -55,10 +58,19 @@ localectl set-x11-keymap it
 # nitrogen --restore &
 
 # feh
-feh --no-fehbg --bg-fill $HOME/Downloads/wallpaper.jpg
+feh --no-fehbg --bg-fill $HOME/glitch.jpg
 
 # dunst
 dunst &
+
+# slstatus
+exec slstatus &
+
+# xautolock
+xautolock -time 5 -locker slock &
+
+# picom
+# picom --no-vsync &
 
 # pipewire
 /usr/bin/pipewire &
