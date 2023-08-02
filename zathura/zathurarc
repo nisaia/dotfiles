@@ -61,3 +61,7 @@ map [fullscreen] <Right> navigate next
 map [fullscreen] f toggle_fullscreen
 
 map [presentation] p toggle_presentation
+
+# Operations
+
+set selection-clipboard clipboard
