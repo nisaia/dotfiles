@@ -1,0 +1,57 @@
+! Dracula theme
+
+! Define colors
+
+#define c00 #282a36
+#define c01 #ff5555
+#define c02 #50fa7b
+#define c03 #f1fa8c
+#define c04 #bd93f9
+#define c05 #ff79c6
+#define c06 #8be9fd
+#define c07 #f8f8f2
+#define c08 #6272a4
+#define c09 #ff5555
+#define c10 #50fa7b
+#define c11 #f1fa8c
+#define c12 #bd93f9
+#define c13 #ff79c6
+#define c14 #8be9fd
+#define c15 #f8f8f2
+
+! special
+*.foreground: c15
+*.background: c00
+*.cursorColor: c07
+
+! Black dark/light
+*.color0: c00
+*.color8: c08
+
+! Red dark/light
+*.color1: c01
+*.color9: c09
+
+! Green dark/light
+*.color2: c02
+*.color10: c10
+
+! Yellow dark/light
+*.color3: c03
+*.color11: c11
+
+! Blue dark/light
+*.color4: c04
+*.color12: c12
+
+! Magenta dark/light
+*.color5: c05
+*.color13: c13
+
+! Cyan dark/light
+*.color6: c06
+*.color14: c14
+
+! White dark/light
+*.color7: c07
+*.color15: c15

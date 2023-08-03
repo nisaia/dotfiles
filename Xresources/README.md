@@ -34,25 +34,3 @@ Whenever you want to make a change to the various configuration files, to confir
 ```bash
 xrdb .Xresources
 ```
-
-## Screenshots
-
-#### Childhood
-
-#### Default Dark
-
-#### Eighties Dark
-
-#### Future
-
-#### Google Dark
-
-#### Gruvbox
-
-#### Miami Beach
-
-#### MS DOS
-
-#### Scary Forest
-
-#### Sunshine
