@@ -1,35 +1,47 @@
 # Themes preview
 
+Below a list of available themes.
+
 #### Childhood
 
-![Alt text](screenshots/2023-08-03_21:21:39-screenshot.png)
+![Alt text](screenshots/childhood.png)
 
 #### Default Dark
 
-![Alt text](screenshots/2023-08-03_21:34:47-screenshot.png)
+![Alt text](screenshots/default-dark.png)
 
-### Dracula
+#### Dracula
 
-![Alt text](screenshots/2023-08-03_21:48:41-screenshot.png)
-
-#### Eighties Dark
+![Alt text](screenshots/dracula.png)
 
 #### Future
 
+![Alt text](screenshots/future.png)
+
 #### Google Dark
+
+![Alt text](screenshots/google-dark.png)
 
 #### Gruvbox
 
+![Alt text](screenshots/gruvbox.png)
+
 #### Miami Beach
 
-![Alt text](screenshots/2023-08-03_22:25:59-screenshot.png)
+![Alt text](screenshots/miami-beach.png)
 
 #### MS DOS
 
-![Alt text](screenshots/2023-08-03_20:33:24-screenshot.png)
+![Alt text](screenshots/ms-dos.png)
 
-### Nord
+#### Nord
+
+![Alt text](screenshots/nord.png)
 
 #### Scary Forest
 
+![Alt text](screenshots/scary-forest.png)
+
 #### Sunshine
+
+![Alt text](screenshots/sunshine.png)
