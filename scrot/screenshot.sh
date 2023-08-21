@@ -15,6 +15,7 @@ case "$1" in
     *) scrot "$output" || exit ;;
 esac
 
-echo $screenshot_name
+#dunst configuration
 
-notify-send "Screenshot $screenshot_name taken"
+screenshot_icon="/home/nico/.config/dunst/icons/screenshot.png"
+dunstify -i $screenshot_icon "Screenshot $screenshot_name taken"
