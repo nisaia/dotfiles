@@ -112,6 +112,9 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
 	{ NULL,                         XK_Print,  spawn,          SHCMD("$HOME/.config/scrot/screenshot.sh") },
 	{ MODKEY,                       XK_Print,  spawn,          SHCMD("$HOME/.config/scrot/screenshot.sh select") },
+	{ MODKEY,                       XK_F5,     spawn,          SHCMD("$HOME/.config/light/brightness.sh down") },
+	{ MODKEY,                       XK_F6,     spawn,          SHCMD("$HOME/.config/light/brightness.sh up") },
+	{ MODKEY,                       XK_F7,     spawn,          SHCMD("$HOME/.config/light/brightness.sh restore") },
 	{ MODKEY,                       XK_l,      spawn,          {.v = lockcmd } },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
