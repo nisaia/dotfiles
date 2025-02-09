@@ -44,7 +44,7 @@ setopt prompt_subst
 
 #Prompt
 # to see icons you need to install a Nerd Font
-PROMPT="[%F{green}%n%f%F{magenta}@%f%F{blue}%m%f%F{white}  %f%F{red}%~%f%F{white}]$%f "
+PROMPT="[%B%F{green}%n%f%F{magenta}@%f%F{blue}%m%f%F{white}%b:%f%F{red}%~%f%F{white}]$%f "
 RPROMPT='%F{blue}${vcs_info_msg_0_}%f'
 
 #Plugins
